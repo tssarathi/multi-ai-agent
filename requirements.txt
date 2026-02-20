@@ -1,7 +1,6 @@
 # -- LangChain Integrations --
-langchain-classic
-langchain-community
-langchain_groq
+langchain-tavily
+langchain-groq
 langgraph
 
 # -- User Interface --
