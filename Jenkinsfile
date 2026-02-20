@@ -15,6 +15,7 @@ pipeline{
                 script{
                     echo 'Cloning Github repo to Jenkins............'
                     checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHub-token', url: 'https://github.com/tssarathi/multi-ai-agent.git']])
+                }
             }
         }
 
@@ -67,7 +68,5 @@ pipeline{
     //             }
     //         }
     //     }
-    //  }
-
-    }
+    //      }
 }
