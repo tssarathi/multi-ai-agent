@@ -5,6 +5,10 @@ __pycache__/
 
 # -- IDE Settings --
 .vscode/
+.cursor/
+
+# -- Logs --
+logs/
 
 # -- Environment Variables --
 .env
