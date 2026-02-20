@@ -1,0 +1,19 @@
+# -- LangChain Integrations --
+langchain-classic
+langchain-community
+langchain_groq
+langgraph
+
+# -- User Interface --
+streamlit
+watchdog
+
+# -- API --
+uvicorn
+fastapi
+
+# -- Data Validation --
+pydantic
+
+# -- Environment Variable Management --
+python-dotenv
